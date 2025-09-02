@@ -15,7 +15,7 @@ Reflect on your projects, what you've learned, and how your thinking has evolved
 - Draft in Markdown or HTML--whatever gets you there faster.
 
 ### 2. Design & Build
-
+*
 - Create a template or layout that works across your projects.
 - Use placeholder content to experiment with structure and style.
 - Host your work using GitHub Pages (this time, you set it up yourself).
