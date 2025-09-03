@@ -130,9 +130,9 @@ article:hover {
 }
 
 .center-left-text img {
-  max-width: 120px;
-  height: auto;
-  margin: 8px 8px 8px 0;
+  max-width: 60px !important;
+  height: auto !important;
+  margin: 6px 6px 6px 0 !important;
   display: inline-block;
   vertical-align: middle;
   border-radius: 6px;
