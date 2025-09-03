@@ -130,25 +130,28 @@ article:hover {
 }
 
 .center-left-text img {
-  max-width: 90px !important;
-  height: auto !important;
-  margin: 8px 8px 8px 0 !important;
+  max-width: 240px !important;
+  height: 240px !important;
+  object-fit: cover;
+  margin: 18px 18px 18px 0 !important;
   display: inline-block;
   vertical-align: middle;
-  border-radius: 6px;
+  border-radius: 7px;
 }
 
 /* Tablet */
 @media (max-width: 900px) {
   .center-left-text img {
-    max-width: 70px !important;
+    max-width: 180px !important;
+    height: 180px !important;
   }
 }
 
 /* Handy */
 @media (max-width: 600px) {
   .center-left-text img {
-    max-width: 50px !important;
+    max-width: 120px !important;
+    height: 120px !important;
   }
 }
 
