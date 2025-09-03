@@ -139,7 +139,7 @@ article:hover {
 }
 
 /* Für kleinere Bildgrößen auf dem Handy */
-@media (max-width: 600px) {
+@media (max-width: 120px) {
   .center-left-text img {
     max-width: 80px;
     margin: 6px 6px 6px 0;
