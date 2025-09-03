@@ -139,14 +139,14 @@ article:hover {
 }
 
 /* Für kleinere Bildgrößen auf dem Handy */
-@media (max-width: 120px) {
+@media (max-width: 60px) {
   .center-left-text img {
     max-width: 60px;
     margin: 6px 6px 6px 0;
   }
 }
 
-@media (max-width: 120px) {
+@media (max-width: 60px) {
   .center-left-text img {
     max-width: 40px;
     margin: 4px 4px 4px 0;
