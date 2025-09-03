@@ -138,18 +138,17 @@ article:hover {
   border-radius: 6px;
 }
 
-/* Für kleinere Bildgrößen auf dem Handy */
-@media (max-width: 60px) {
+/* Tablet */
+@media (max-width: 900px) {
   .center-left-text img {
-    max-width: 60px;
-    margin: 6px 6px 6px 0;
+    max-width: 48px !important;
   }
 }
 
-@media (max-width: 60px) {
+/* Handy */
+@media (max-width: 600px) {
   .center-left-text img {
-    max-width: 40px;
-    margin: 4px 4px 4px 0;
+    max-width: 36px !important;
   }
 }
 
