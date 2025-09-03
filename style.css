@@ -136,13 +136,20 @@ article:hover {
   display: inline-block;
   vertical-align: middle;
   border-radius: 6px;
-  box-shadow: none;
 }
 
-/* Optional: Für noch kleinere Bilder auf sehr kleinen Bildschirmen */
-@media (max-width: 480px) {
+/* Für kleinere Bildgrößen auf dem Handy */
+@media (max-width: 600px) {
   .center-left-text img {
     max-width: 80px;
+    margin: 6px 6px 6px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .center-left-text img {
+    max-width: 60px;
+    margin: 4px 4px 4px 0;
   }
 }
 
