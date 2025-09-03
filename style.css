@@ -130,9 +130,9 @@ article:hover {
 }
 
 .center-left-text img {
-  max-width: 60px !important;
+  max-width: 90px !important;
   height: auto !important;
-  margin: 6px 6px 6px 0 !important;
+  margin: 8px 8px 8px 0 !important;
   display: inline-block;
   vertical-align: middle;
   border-radius: 6px;
@@ -141,14 +141,14 @@ article:hover {
 /* Tablet */
 @media (max-width: 900px) {
   .center-left-text img {
-    max-width: 48px !important;
+    max-width: 70px !important;
   }
 }
 
 /* Handy */
 @media (max-width: 600px) {
   .center-left-text img {
-    max-width: 36px !important;
+    max-width: 50px !important;
   }
 }
 
