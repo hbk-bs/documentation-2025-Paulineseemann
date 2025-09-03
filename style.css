@@ -129,6 +129,23 @@ article:hover {
     max-width: 600px;
 }
 
+.center-left-text img {
+  max-width: 120px;
+  height: auto;
+  margin: 8px 8px 8px 0;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+/* Optional: Für noch kleinere Bilder auf sehr kleinen Bildschirmen */
+@media (max-width: 480px) {
+  .center-left-text img {
+    max-width: 80px;
+  }
+}
+
 p {
     margin-bottom: 2.2em;
     line-height: 2.1;
